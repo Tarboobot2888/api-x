@@ -6,9 +6,13 @@ const path = require('path');
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json()); // دعم JSON
 app.set('json spaces', 2);
-app.listen(9012, () => {
-  console.log(`Server running on port 9012`);
-});
+// Only start the server locally. Vercel handles this automatically.
+if (!process.env.VERCEL) {
+  const port = process.env.PORT || 9012;
+  app.listen(port, () => {
+    console.log(`Server running on port ${port}`);
+  });
+}
 const routesDir = path.join(__dirname, 'routes');
 const apiList = [];
 global.t = 'https://takamura-api.joanimi-world.site';

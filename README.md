@@ -17,6 +17,22 @@ cp .env.example .env
 npm run start
 ```
 
+## Deploying to Vercel
+
+The application exports an Express server from `server.js`. Vercel runs this file
+as a serverless function automatically, so you do not need to start the server
+manually. Deploy using the Vercel CLI or through the dashboard:
+
+```bash
+vercel --prod
+```
+
+For local development you can still run:
+
+```bash
+npm start
+```
+
 ## Useful resources
 - [Gemini REST API Docs](https://ai.google.dev/tutorials/rest_quickstart)
 - [Prompt design strategies](https://ai.google.dev/docs/prompt_best_practices)
