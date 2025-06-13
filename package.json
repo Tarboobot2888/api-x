@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Simple Api Rest para Bots - By BrunoSobrino.",
   "private": true,
+  "engines": {
+    "node": "16.x"
+  },
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
