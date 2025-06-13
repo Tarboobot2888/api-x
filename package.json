@@ -4,7 +4,7 @@
   "description": "Simple Api Rest para Bots - By BrunoSobrino.",
   "private": true,
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   },
   "main": "server.js",
   "scripts": {
