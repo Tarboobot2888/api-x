@@ -27,7 +27,6 @@
     "@bochilteam/scraper": "^4.2.4",
     "@bochilteam/scraper-lyrics": "*",
     "@bochilteam/scraper-youtube": "*",
-    "@sasmeee/igdl": "*",
     "gpti": "*",
     "stream": "*",
     "gifencoder": "*",
