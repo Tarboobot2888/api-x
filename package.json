@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/BrunoSobrino/api#readme",
   "dependencies": {
-    "@bochilteam/scraper": "^4.3.0",
+    "@bochilteam/scraper": "^5.0.1",
     "@bochilteam/scraper-lyrics": "^1.0.0",
     "@bochilteam/scraper-youtube": "^1.0.0",
     "gpti": "^1.0.0",
